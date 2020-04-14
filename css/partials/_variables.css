@@ -1,0 +1,118 @@
+html,
+body {
+  margin: 0;
+
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+/* color variables */
+:root {
+  --title-color: #1f1e1e;
+  --dark-color: rgb(51, 51, 51);
+  --gray-color: rgb(77, 77, 77);
+  --light-color: rgb(240, 240, 240);
+  --soft-light: rgb(216, 216, 216);
+  --gradient-color: linear-gradient(314deg, #bebebe, #494649);
+  --shadow-color: 0px 8px 21px rgba(5, 148, 112, 0.301);
+  --box-shadow-color: rgba(78, 115, 119, 0.285);
+  --fade-light-bg: rgba(221, 136, 103, 0.849);
+  --fade-dark-bg: rgba(102, 21, 32, 0.849);
+  --dark-bg: rgb(102, 21, 32);
+  --libre: 'Libre Franklin', sans-serif;
+}
+
+.light-text {
+  color: var(--light-color);
+}
+
+.dark-text {
+  color: var(--dark-color);
+}
+
+.xs-text {
+  font-size: 1rem;
+}
+
+.sm-text {
+  font-size: 1.5rem;
+}
+
+.md-text {
+  font-size: 2rem;
+}
+
+.lg-text {
+  font-size: 3rem;
+}
+
+.xl-text {
+  font-size: 3.5rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .xs-text {
+    font-size: 1rem;
+  }
+
+  .sm-text {
+    font-size: 1.4rem;
+  }
+
+  .md-text {
+    font-size: 1.7rem;
+  }
+
+  .lg-text {
+    font-size: 2.5rem;
+  }
+
+  .xl-text {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .xs-text {
+    font-size: 1rem;
+  }
+
+  .sm-text {
+    font-size: 1rem;
+  }
+
+  .md-text {
+    font-size: 1.5rem;
+  }
+
+  .lg-text {
+    font-size: 2rem;
+  }
+
+  .xl-text {
+    font-size: 2.2rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .xs-text {
+    font-size: 0.7rem;
+  }
+
+  .sm-text {
+    font-size: 0.85rem;
+  }
+
+  .md-text {
+    font-size: 1.1rem;
+  }
+
+  .lg-text {
+    font-size: 1.7rem;
+  }
+
+  .xl-text {
+    font-size: 2rem;
+  }
+}
