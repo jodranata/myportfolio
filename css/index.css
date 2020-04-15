@@ -161,7 +161,7 @@ a.navbar-links {
 /* Introduction*/
 
 .main-header {
-  padding-top: 56.25%;
+  padding-top: 52.25%;
   width: 100%;
   background: url(../images/header1.jpg) no-repeat bottom;
   background-size: cover;
@@ -209,7 +209,8 @@ a.navbar-links {
 
 .about {
   background: var(--dark-color);
-  min-height: 85vh;
+  min-height: 90vh;
+  padding-bottom: 30px;
 }
 
 .chapter-title {
@@ -225,8 +226,9 @@ a.navbar-links {
 
 .about-image {
   min-width: 150px;
-  max-width: 25%;
+  max-width: 23%;
   border-radius: 50%;
+  padding-top: 25px;
 }
 
 .about-content {
@@ -237,8 +239,14 @@ a.navbar-links {
 }
 
 .about-text {
-  text-align: center;
-  padding: 24px;
+  text-align: justify;
+}
+
+.about-details {
+  display: block;
+  padding: 10px 30px;
+  margin: 24px auto;
+  line-height: 2;
 }
 
 /* skills */
